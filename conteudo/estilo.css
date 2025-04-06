@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+   background-color: var(--cor3amareloalaranjado);
+}
+
+
+:root{
+    --lilas: #BD6DF2;
+    --roxo: #532A8C;
+    --amareloalaranjado: #F2B705;
+    --laranja: #F28907;
+    --marrom: #BF4904;
+    
+    --cor6creme: #F9F9F9;
+}
