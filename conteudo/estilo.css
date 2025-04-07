@@ -8,35 +8,150 @@
 }
 
 body{
-   background-color:var(--amareloalaranjado)
+   background-color: #BD6DF2;
 }
 
 header{
-    background-color:#BF4904;
+    padding-top:15px;
+    background: linear-gradient(to top, #f28807, #f2b705);
     color:#ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height:40px;
+    height:60px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.288); 
 }
 
-nav>div{
+div{
     display:inline-block;
 }
 
 .menuimg1{
     padding:7px 5px 0px 30px;
-    width: 24px;
+    width: 28px;
     height: auto;
 }
 
 .menut1{
     font-family:'muthiara';
-    font-size: 22px;
+    font-size: 28px;
     color:#F9F9F9;
     padding: 15px 5px 0xp 5px;
-    text-shadow: 3px 1px 4px rgba(0, 0, 0, 0.582);
-    
-   
+    text-shadow: 3px 1px 4px rgba(0, 0, 0, 0.342);
+}
+
+.na1{
+    color: #ffffff;
+    font:lighter 16px;
+    text-decoration: none;
+    margin-left: 350px;
+    padding:5px;
+}
+
+.na1:hover{
+    background-color:#F2B705;
+}
+div:hover>.escondido1{
+    display: block;
+}
+.escondido1{
+    display: none;
+    font-size: 12px;
+}
+
+.na2{
+    color: #ffffff;
+    font:lighter 16px;
+    text-decoration: none;
+    margin-left:60px;
+    padding:5px;
+}
+
+.na2:hover{
+    background-color:#F2B705;
+}
+
+.escondido2{
+    display: none;
+    font-size: 12px;
+}
+
+.escondido3{
+    display: none;
+    font-size: 12px;
+}
+
+.escondido4{
+    display: none;
+    font-size: 12px;
+}
+
+div:hover>.escondido2{
+    display: block;
+}
+
+div:hover>.escondido3{
+    display: block;
+}
+
+div:hover>.escondido4{
+    display: block;
+}
+
+.na3{
+    color: #ffffff;
+    font:lighter 16px;
+    text-decoration: none;
+    margin-left:60px;
+    padding:5px;
+}
+.na3:hover{
+    background-color:#F2B705;
+}
+
+.na4{
+    color: #ffffff;
+    font:lighter 16px;
+    text-decoration: none;
+    margin-left:60px;
+    padding:5px;
+}
+.na4:hover{
+    background-color:#F2B705;
+}
+
+.na5{
+    color: #ffffff;
+    font:lighter 16px;
+    text-decoration: none;
+    margin-left:60px;
+    padding:5px;
+}
+
+.na5:hover{
+    background-color:#F2B705;
+}
+
+.na6{
+    color: #ffffff;
+    font:lighter 16px;
+    text-decoration: none;
+    margin-left:80px;
+    padding:5px;
+}
+
+.na6:hover{
+    background-color:#F2B705;
+}
+
+.na7{
+    color: #ffffff;
+    font:lighter 16px;
+    text-decoration: none;
+    margin-left:10px;
+    padding:5px;
+}
+
+.na7:hover{
+    background-color:#F2B705;
 }
 
 main{
