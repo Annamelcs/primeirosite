@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-* {margin: 0%;}
+* {margin: 0%;
+}
 
 @font-face{
     font-family:'muthiara';
@@ -17,6 +18,8 @@ body{
 }
 
 header{
+    min-width: 300px;
+    margin: auto;
     padding-top:10px;
     background: linear-gradient(to top, #f28807, #f2b705);
     color:#ffffff;
@@ -167,6 +170,9 @@ div:hover>.escondido4{
 /* Eu adicionei esse comentário, para fazer uma divisão visual melhor entre o header, main e footer(é claro que em um site maior, eu poderia fazer essa divisão por outras páginas de estilo, mas ainda não é necessário) */
 
 main{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
     font-family:'arya';
     background-color:#F9F9F9;
     padding: 0px 0px 400px 0px;
@@ -177,9 +183,10 @@ main{
     display: inline-block;
 }
 .buque{
+    width: 100%;
     padding: 0%;
-    width: 1350px;
-    height: 500px;
+    width: 1000px;
+    height: 400px;
 }
 
 .textonaimagem{
